@@ -1,0 +1,182 @@
+div{
+    padding:20px;
+
+}
+
+body{
+    /* color: #40514E; */
+    margin: 0px;
+    
+    text-align: center;
+
+}
+
+
+hr{
+    border: dotted #656565 6px;
+    /* style , color width of each dot */
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;   
+}
+.name{
+    font-family: 'Tourney', cursive;
+    display:block;
+    font-size: 25px;
+    margin: 50px auto 0 auto ;
+    color: rgb(134, 85, 52);
+}
+
+.confused_person{
+    font-family: monospace;
+    display: block;
+    font-size: 30px;
+    color: rgba(23, 79, 131, 0.945);
+    
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+    font-size: 20px;
+}
+
+h1{
+    margin-top: 0px;
+    margin:0 auto 0 auto;
+    font-size: 90px;
+    /* line-height: 2; */
+    /* 100% = 16 px so 90px = 562.5px */
+    /* 16px = 100% = 1rem */
+}
+
+h2{
+    font-family: monospace;
+    font-weight: normal;
+    font-size: 45px;
+    padding-bottom: 10px;
+}   
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.topcontainer{
+    background-color:wheat ;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+.midcontainer{
+    margin: 100px 0 ;
+   
+}
+
+.bottom-container{
+    background-color: #1C0F0B;
+    padding: 50px 0 20px;
+    color: khaki;
+    font-size: 20px;
+}
+
+a{
+    color : khaki;
+    font-size: 20px;
+    padding:20px ;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left:300px ;
+    bottom: 300px;
+}
+
+.top-cloud{
+    position: absolute;
+    top: 45px;
+    right: 285px;
+}
+
+.second-bottom-cloud{
+    position: absolute;
+    bottom: 265px;
+    right: 250px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto; 
+    /* text-align: left; */
+    line-height:2;
+    font-size:25px;
+}
+
+.currently-img{
+    width: 25%;
+    padding: 60px;
+    float: right;
+}
+
+.programming-img{
+    width: 25%;
+    padding: 60px;
+    float: left;
+}
+
+.designing-img{
+    width: 25%;
+    padding: 60px;
+    float: right;
+}
+
+.web-img{
+    width: 25%;
+    padding: 60px;
+    float: left;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+    font-size: 25px;
+}
+
+.btn {
+    background: #FFF5E7;
+    background-image: -webkit-linear-gradient(top, #FFF5E7, #1C0F0B);
+    background-image: -moz-linear-gradient(top, #FFF5E7, #1C0F0B);
+    background-image: -ms-linear-gradient(top, #FFF5E7, #1C0F0B);
+    background-image: -o-linear-gradient(top, #FFF5E7, #1C0F0B);
+    background-image: linear-gradient(to bottom, #FFF5E7, #1C0F0B);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: monospace;
+    color: #ffffff;
+    font-size: 23px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #E9F3FB;
+    background-image: -webkit-linear-gradient(top, #E9F3FB, #AB6E50);
+    background-image: -moz-linear-gradient(top, #E9F3FB, #AB6E50);
+    background-image: -ms-linear-gradient(top, #E9F3FB, #AB6E50);
+    background-image: -o-linear-gradient(top, #E9F3FB, #AB6E50);
+    background-image: linear-gradient(to bottom, #E9F3FB, #AB6E50);
+    text-decoration: none;
+  }
+
+  .copyright{
+      color: khaki;
+      padding: 15px 0;
+  }
